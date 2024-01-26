@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="jt.excel.impl.startStop:start"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="jt.excel.impl.startStop:stop"/>
+  </record>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="webappLoad">yes</value>
+  <value name="reloadWithDependentPackage">yes</value>
+  <null name="build"/>
+  <null name="description"/>
+  <value name="created_date">21-01-2024 06:16:07 CET</value>
+  <null name="extendedProperties"/>
+  <value name="classloader">package</value>
+</Values>

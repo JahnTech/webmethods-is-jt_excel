@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">jt.excel.pub.workbook</value>
+  <value name="node_pkg">JT_Excel</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared"></value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.File</value>
+    <value>java.io.FileNotFoundException</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.IOException</value>
+    <value>org.apache.poi.hssf.usermodel.HSSFWorkbook</value>
+    <value>org.apache.poi.openxml4j.exceptions.InvalidFormatException</value>
+    <value>org.apache.poi.ss.usermodel.Workbook</value>
+    <value>org.apache.poi.xssf.usermodel.XSSFWorkbook</value>
+    <value>com.jahntech.webm.is.excel.JtWorkbook</value>
+    <value>com.jahntech.webm.is.excel.JtWorkbook.Type</value>
+  </array>
+</Values>
