@@ -40,7 +40,7 @@ this is determined entirely by what Apache POI covers.
 
 You can install `JT_Excel` in two ways.
 
-- There will be [releases](https://github.com/JahnTech/webmethods-is-jt_excel/tags)
+- There will be [releases](https://github.com/JahnTech/webmethods-is-jt_excel/releases)
   that come as a `ZIP` file and must be
   installed in the traditional way. That means copying it into
   `$IS_HOME/replicate/inbound` and then invoking
