@@ -67,3 +67,14 @@ The service that come with `JT_Excel` can roughly be grouped like this:
 For the time being there is no detailed documentation for the individual
 services. For inquiries about those please
 get in touch with [JahnTech](https://jahntech.com).
+
+------------------------------
+
+These tools are provided as-is and without warranty or support. They do
+not constitute part of the Software AG product suite. Users are free to
+use, fork and modify them, subject to the license agreement.
+While JahnTech welcomes contributions, we cannot guarantee to include every
+contribution in the master project.
+
+webMethods® is a registered trademark of Software AG and/or its subsidiaries
+and/or its affiliates and/or their licensors.
