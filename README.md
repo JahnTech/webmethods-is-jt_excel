@@ -20,8 +20,15 @@ Individual pricelists come to mind here.
 ## Limitations
 
 In terms of data formats no formats other than the spreadsheet files
-in `.xls` and `.xlsx` format (no CSV etc.) and the normal data
+in `.xls` format (no CSV etc.) and the normal data
 structures of Integration Server (`IData`) are in the game.
+
+Due to a limitation of the underlying XML library it is **not possible
+to handle `.xlsx` spreadsheets**. The root cause is the logic that was
+chosen to perform some automated class-loading. If you search the
+Internet you will find that a lot of people complain about this.
+It is not an issue specific to Integration Server, but comes up in
+the context of other application servers as well.
 
 So if you want to convert an Excel spreadsheet to JSON or XML, you will
 need to write a Flow service that parses the data from the spreadsheet,
