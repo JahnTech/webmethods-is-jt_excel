@@ -47,15 +47,17 @@ this is determined entirely by what Apache POI covers.
 
 You can install `JT_Excel` in two ways.
 
-- There will be [releases](https://github.com/JahnTech/webmethods-is-jt_excel/releases)
+### From release
+
+There are [releases](https://github.com/JahnTech/webmethods-is-jt_excel/releases)
   that come as a `ZIP` file and must be
   installed in the traditional way. That means copying it into
   `$IS_HOME/replicate/inbound` and then invoking
   `Package Management / Install Inbound Release`.
-- For people who want to be on the bleeding edge, you can always
-  just clone or download the Git repository into your workspace
-  and then work with it like a developer. For any environment
-  other than DEVELOPMENT this is not recommended, though.
+
+### From source
+
+Details can be found at https://github.com/JahnTech/webmethods-is-pkg-installation
 
 ## Samples
 
@@ -74,6 +76,7 @@ The service that come with `JT_Excel` can roughly be grouped like this:
 For the time being there is no detailed documentation for the individual
 services. For inquiries about those please
 get in touch with [JahnTech](https://jahntech.com).
+
 
 ------------------------------
 
